@@ -21,3 +21,7 @@ char	*ft_strpbrk(const char *s1, const char *s2)
     }
     return(NULL);
 }
+
+//s1 , s2 de aynı olduğu yerin adresini döndürcek.
+//char a cast ediyoruz çünkü const değişmez.
+

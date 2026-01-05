@@ -49,3 +49,7 @@ int	main(int argc, char **argv)
 	write(1, "\n", 1);
 	return (0);
 }
+
+
+//iki argüman alıcak ve ilk stringde olan şey ikincide de olması lazım
+//ve aynı char ı tekrar yazmicak. bu kural olduğu sürece ilk stringi yazıcak.

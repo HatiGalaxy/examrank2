@@ -57,3 +57,6 @@ int main(int ac, char **av)
 	return (0);
 
 }
+//ilk stringi aynı karakterleri tekrar basmadan komple yazıcak daha sonra ikinci stringde
+//birinci stringe olmayan ve tekrarlamayan karakterleri yazıcak birleştiricek string 1 le
+

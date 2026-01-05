@@ -33,7 +33,9 @@ size_t ft_strspn(const char *s, const char *accept)
 
 
 
-
+//accept içindekileri s1 içinde aricak buldukça aramaya devam
+//etcek eğer bulamazsa found = 0 olduğu anda program durur 
+//uzunluk döndürür.
 
 
 
