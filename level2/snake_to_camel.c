@@ -19,3 +19,8 @@ int main(int ac, char **av)
     write(1, "\n", 1);
 	return (0);
 }
+
+//amaç verilen snake_case stringini camelCase e çevirmek.
+//örneğin "hello_world" -> "helloWorld"
+//alt çizgi '_' gördüğünde bir sonraki karakteri büyük yapıyor ve alt çiz
+//görünce atlıyor.

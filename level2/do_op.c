@@ -16,11 +16,11 @@ int main(int ac, char const **av)
         else if(op == '-')
             printf("%d", s1 - s2);
         else if(op == '*')
-            printf("%d", s1 - s2);
+            printf("%d", s1 * s2);
         else if(op == '/')
-            printf("%d", s1 - s2);
+            printf("%d", s1 / s2);
         else if(op == '%')
-            printf("%d", s1 - s2);
+            printf("%d", s1 % s2);
         
         
     }

@@ -30,3 +30,5 @@ int main(int ac, char **av)
 
 
 //sırayla s1 i s2 de bularak yazdırmaya çalışcak.
+//örneğin: s1: "abc" s2: "abpcplea" -> "abc" yazdırır çünkü s1 in tüm karakterleri s2 de sırayla bulunuyor.
+//örneğin: s1: "axc" s2: "ahbgdc" -> hiçbir şey yazdırmaz çünkü s1 in karakterleri s2 de sırayla bulun

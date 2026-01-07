@@ -47,9 +47,17 @@ int	main(int argc, char **argv)
 		}
 	}
 	write(1, "\n", 1);
-	return (0);
+	return (0);                 
 }
 
 
 //iki argüman alıcak ve ilk stringde olan şey ikincide de olması lazım
 //ve aynı char ı tekrar yazmicak. bu kural olduğu sürece ilk stringi yazıcak.
+
+//örneğin: s1: "abc" s2: "bcd" -> "abcd" yazdırır
+//örneğin: s1: "hello" s2: "world" -> "helowrd" yazdırır
+//örneğin: s1: "aaabbb" s2: "bbbaaa" -> "" yazdırır çünkü tüm karakterler tekrarlıyor
+//örneğin: s1: "abcd" s2: "efgh" -> "abcdefgh" yazdırır çünkü tüm karakterler farklı
+//örneğin: s1: "" s2: "abc" -> "abc"
+//örneğin: s1: "abc" s2: "" -> "" çünkü ikinci string boş
+//örneğin: s1: "aabbcc" s2: "abcabc" -> "abc" yazdırır çünkü tekrarlamayan karakterleri yazıcak

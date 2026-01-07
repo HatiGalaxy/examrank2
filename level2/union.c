@@ -60,3 +60,9 @@ int main(int ac, char **av)
 //ilk stringi aynı karakterleri tekrar basmadan komple yazıcak daha sonra ikinci stringde
 //birinci stringe olmayan ve tekrarlamayan karakterleri yazıcak birleştiricek string 1 le
 
+//örneğin: s1: "abc" s2: "bcd" -> "abcd" yazdırır
+//örneğin: s1: "hello" s2: "world" -> "helowrd" yazdırır
+//örneğin: s1: "aaabbb" s2: "bbbaaa" -> "" yazdırır çünkü tüm karakterler tekrarlıyor
+//örneğin: s1: "abcd" s2: "efgh" -> "abcdefgh" yazdırır çünkü tüm karakterler farklı
+//örneğin: s1: "" s2: "abc" -> "abc" yazdırır çünkü birinci string boş
+
