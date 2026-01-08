@@ -28,3 +28,5 @@ int main(int ac, char **av)
 
 //amaç girilen stringdeki fazla boşluklar silip tek boşluk atmak 
 // örenek = "   selam      merhaba canim    benim   "   >>> "selam merhaba canim benim"  yazmak.
+
+

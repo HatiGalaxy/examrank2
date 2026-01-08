@@ -13,3 +13,5 @@ int	ft_list_size(t_list *begin_list)
     }
     return(count);
 }
+
+//klasik list_size

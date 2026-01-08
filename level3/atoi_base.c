@@ -61,3 +61,7 @@ int main(void)
     
     return (0);
 }
+
+
+
+//amaç = hexa sayılarla çalışcaz atoiye farken
